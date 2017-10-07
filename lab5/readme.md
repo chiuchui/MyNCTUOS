@@ -43,22 +43,6 @@ To debug
 - `kernel/sched.c` implement scheduler
 - `kernel/timer.c` implement timer_handler to support sleep
 
-### Lab 4
-
-In this lab, you will learn about memory management in x86.
-
-You can leverage `grep` to find out where to fill up to finish this lab.
-
-`$ grep -R TODO .`
-
-To run this kernel
-
-    $ make
-    $ qemu -hda kernel.img -monitor stdio
-
-- Modify `kernel/mem.c` to implement the memory management functions
-- Modify `kernel/trap.c` and `kernel/trap_entry.S` to setup IDT for pagefault
-
 
 ### Acknowledgement
 
