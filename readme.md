@@ -15,10 +15,10 @@ To run this kernel
 
 $ make
 $ qemu -hda kernel.img -monitor stdio
-Modify boot/boot.S to setup GDT
-Modify kernel/trap.c and kernel/trap_entry.S to setup IDT for keyboard and timer
-Modify kernel/main.c to uncomment the setup process
-Modify kernel/shell.c to support kerninfo and chgcolor
+- Modify boot/boot.S to setup GDT
+- Modify kernel/trap.c and kernel/trap_entry.S to setup IDT for keyboard and timer
+- Modify kernel/main.c to uncomment the setup process
+- Modify kernel/shell.c to support kerninfo and chgcolor
 After this lab, you should know about how interrupt works and the working flow of GDT & IDT
 
 ### Lab 4
